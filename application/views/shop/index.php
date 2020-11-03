@@ -19,7 +19,7 @@
     <div class="row">
       <div class="content col-sm-12">
         <div class="customtab">
-          <h3 class="productblock-title" style="margin-bottom: 25px">Newest Product</h3>
+          <h3 class="productblock-title" style="margin-bottom: 25px">Abc Newest Product</h3>
             <span class="viewall"><a href="<?=base_url('catalog/?sort=id_product-DESC');?>">View All <i class="fa fa-angle-double-right"></i></a></span>
         </div>
         <!-- tab-furniture-->
