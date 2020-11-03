@@ -1,0 +1,14 @@
+{
+    "name": "shadenco/ecommerce",
+    "description": "Shade&Co eCommerce",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Shade&Co",
+            "email": "info@shadenco.co.id"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^0.8.3"
+    }
+}
