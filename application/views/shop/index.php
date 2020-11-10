@@ -18,7 +18,7 @@
 </div>
 <div id="center" style="padding: 20px 0 120px !important;
         position: relative;
-        background: url(<?= base_url("assets/moonstore/ms01/image/kebun-kopi.jpg"); ?>) bottom center repeat #000;
+        background: url(<?= base_url("assets/moonstore/ms01/image/kebun-kopi.JPG"); ?>) bottom center repeat #000;
         background-size: contain;">
     <div class="container">
         <div class="row">
