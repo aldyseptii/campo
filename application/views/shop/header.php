@@ -58,6 +58,16 @@ $this->visitor->hit();
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
+            <div class="top-left pull-left">
+                <ul class="header-social mt-2">
+                    <li class="mr-4">
+                        <a href="https://wa.me/+6282213833526" target="_blank" class="text-white"><i class="fa fa-whatsapp"></i> +62822-1383-3526</a>
+                    </li>
+                    <li>
+                        <a href="mailto:official@campokopi.id" target="_blank" class="text-white"><i class="fa fa-envelope-o"></i> official@campokopi.id</a>
+                    </li>   
+                </ul>
+            </div>
           <div class="top-right pull-right">
               <ul class="header-social mt-2">
                   <li>

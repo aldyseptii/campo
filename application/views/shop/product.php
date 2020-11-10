@@ -81,29 +81,6 @@ unset($rowthumb[0]);
 <!--                        </h1>-->
 <!--                    </div>-->
                     <hr>
-                    <div class="motif">
-                        <h5>Variant</h5>
-                        <?php foreach ($variant as $motif) {
-                            ?>
-                            <label>
-                                <input type="radio" name="test" value="<?= $motif->variant_product; ?>"
-                                       data-image="<?= $motif->variant_product; ?>">
-                                <?php
-                                $image_link = $motif->image_url;
-                                if (empty($motif->image_url)) {
-                                     echo '';
-                                } else {
-                                    echo "<img src='$image_link'>";
-                                }?>
-                                <?= $motif->variant_product; ?>
-                            </label>
-                        <?php }
-                        if (count($variant) == 0) {
-                            echo 'Tidak ada variant pada produk ini';
-                        } ?>
-
-                    </div>
-                    <hr>
                     <p class="product-desc" style="color:#555"><?= nl2br($detail->description_product); ?> <br/><br/>
                         Availability : <?= $detail->stock_product; ?> Stock</span>
                     </p>

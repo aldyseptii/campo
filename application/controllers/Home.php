@@ -15,7 +15,7 @@ class Home extends CI_Controller {
     }
 
     function index() {
-        $push['productlist'] = $this->product_list->showall("id_product-DESC",NULL,[0,8])->result();
+        $push['productlist'] = $this->product_list->showall("id_product-DESC",NULL,[0,18])->result();
         $push['toplist'] = $this->product_list->showall("total_rating-DESC",NULL,[0,4])->result();
         $push['sliders'] = $this->slider_model->all_slider()->result();
         $push['categories'] = $this->category_model->get_all()->result();
