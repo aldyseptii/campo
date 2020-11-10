@@ -1149,6 +1149,12 @@ footer ul li {
 .riview {
 	margin-left: 15px;
 }
+
+.owl-item .item {
+	min-height: auto;
+	padding-bottom: 38px;
+}
+
 .rating {
 	margin-top: 15px;
 }

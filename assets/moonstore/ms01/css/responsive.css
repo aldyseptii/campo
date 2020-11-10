@@ -542,10 +542,25 @@ footer .ul-wrapper {
     float: none;
 }
 .header-right #cart{
-	margin-top: 30px;
+	margin-top: 0;
     text-align: center;
     float: none; 
 }
+
+	.top-left .header-social {
+		font-size: 11.333px;
+	}
+
+	.viewall {
+		position: absolute;
+		top: 118px;
+		right: 6px;
+		font-size: 14px;
+	}
+	.parallax-resp {
+		margin-top: 0!important;
+		padding-top: 0!important;
+	}
 }
 @media (max-width: 640px) {
 .newslatter .form-control {

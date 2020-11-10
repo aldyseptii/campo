@@ -150,7 +150,7 @@
 <div class="breadcrumb parallax-container" style="background: #0000007a;">
     <div class="parallax"><img src="<?= base_url("assets/moonstore/ms01/image/home-parallax.webp"); ?>" alt="#" style="display: block; transform: translate3d(-50%, 147px, 0px);"></div>
     <div class="container">
-        <div class="col-md-12 my-5 py-5">
+        <div class="col-md-12 my-5 py-5 parallax-resp">
             <h1 class="category-title my-4 text-shadow-shadenco">Our Story</h1>
             <ul style="color: #fff;font-family: Montserrat;font-size: 15px;font-weight: 400;letter-spacing: 0.5px;">
                 Campo Kopi is a premier and authentic Coffee Shop that has been proudly serving the Bekasi area and
